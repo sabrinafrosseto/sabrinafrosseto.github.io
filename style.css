@@ -1,0 +1,135 @@
+body	{
+	font-family: Calibri, Arial, sans-serif;
+	font-weight: lighter;
+	font-size: 11pt;
+	background-color: #222224;
+	color: lightgray;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+header {
+	text-align: center;
+}
+
+header h1{
+	margin-bottom: 0;
+}
+header blockquote{
+	margin-top: 0;
+	margin-bottom: 1em;
+	border-bottom: 2px deepskyblue solid;
+}
+
+h1{
+	font-weight: bold;
+	font-size: xx-large;
+}
+
+a {
+	color: deepskyblue;
+}
+
+a:hover{
+	background-color: darkslategray;
+}
+
+h2{
+	font-size: 170%;
+}
+ 
+body > p{ 
+	text-align: justify; 
+	line-height: 1.25; 
+	text-indent: 2em;
+
+}
+
+nav ul{
+	padding-left: 0;
+	text-align: right;
+}
+
+nav li{
+	display: inline-block;
+}
+
+nav a{
+	display: inline-block;
+	padding: 5px 1em;
+	background-color: lightgray;
+	color: darkslategray;
+	border-radius: 3px;
+}
+
+nav a:hover{
+	background-color: deepskyblue;
+}
+
+blockquote{
+	font-style: italic;
+	font-family: Satisfy,  cursive;
+	color: dimgray;
+}
+
+figure img{
+	width: 250px;
+}
+
+figure{
+	width: 250px;
+	margin-left: 2em;
+	margin-right: 0;
+	float: right;
+}
+
+figcaption{
+	text-align: center;
+}
+
+footer{
+	font-size: smaller;
+}
+
+h2{
+	clear: both;
+}
+
+footer{
+	margin-top: 2em;
+}
+
+#stats{
+	border-collapse: collapse;
+}
+
+#stats td, #stats th{
+	border: 2px dimgray solid;
+	padding: 3px 5px;
+}
+
+#stats td{
+	text-align: right;
+}
+
+#stats td:first-child{
+text-align	left;
+}
+
+#stats th{
+	background-color: dimgray;
+}
+
+#stats tfoot tr:first-child td{
+	font-weight: bold;
+}
+
+#stats	tfoot tr:last-child td{
+	border: 0;
+}
+
+#contato label{
+	vertical-align: top;
+	width: 6em;
+	display: inline-block;
+}
