@@ -68,10 +68,10 @@ nav a:hover{
 
 blockquote{
     font-style: italic;
-    font-size: 16pt;
+    font-size: 12pt;
     text-align: end;
 	font-family: Satisfy,  cursive;
-	color: dimgray;
+	color: gray;
 }
 
 figure img{
@@ -82,7 +82,8 @@ figure{
 	width: 250px;
 	margin-left: 2em;
 	margin-right: 0;
-	float: right;
+    float: right;
+    border-radius: 10px;
 }
 
 figcaption{
@@ -102,7 +103,8 @@ footer{
 }
 
 #stats{
-	border-collapse: collapse;
+    border-collapse: collapse;
+    border-radius: 10px;
 }
 
 #stats td, #stats th{
