@@ -2,7 +2,7 @@ body	{
 	font-family: Calibri, Arial, sans-serif;
 	font-weight: lighter;
 	font-size: 11pt;
-	background-color: #222224;
+	background-color: #1b052b;
 	color: lightgray;
 	margin-left: 1em;
 	margin-right: 1em;
@@ -67,7 +67,9 @@ nav a:hover{
 }
 
 blockquote{
-	font-style: italic;
+    font-style: italic;
+    font-size: 16pt;
+    text-align: end;
 	font-family: Satisfy,  cursive;
 	color: dimgray;
 }
